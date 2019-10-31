@@ -1,0 +1,20 @@
+2. Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target.
+
+Note:
+You are guaranteed to have only one unique value in the BST that is closest to the target.
+
+For Example:
+Input: root = [20,10,15,5,8,12,18], 17
+Output: 18
+
+Ans:
+the closest value near 17 is 18 in given bst. So now lets see how we can solve this problem, the key to solve this problem is 
+define one variable called close and traverse the bst and store the closest value in it. 
+But how can you examine whether which value is closest?
+See, |17-18| = 1 so the difference will give the closest value in tree. 
+
+There are two approaches to solve this problem:
+1. Iterative Approach 
+2. Recursive Approach
+
+Please look at the python file for detailed code walkthrough.
