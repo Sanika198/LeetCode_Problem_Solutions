@@ -1,5 +1,5 @@
 '''Approach 1: o(n^2) Time Complexity and O(1) Space Complexity'''
-def twoNumberSum(array, targetSum):
+def twoSumNumber(array, targetSum):
     # Write your code here
     for i in range(0,len(array)-1):
 		  for j in range(i+1,len(array)):
@@ -13,7 +13,7 @@ def twoNumberSum(array, targetSum):
 
 
 ''' Approach 2 : O(n) Time Complexity and O(n) Space Complexity'''
-def twoNumberSum(array, targetSum):
+def twoSumNumber(array, targetSum):
     # Write your code here
     num = {}
 	
@@ -29,7 +29,7 @@ def twoNumberSum(array, targetSum):
 
 '''Approach 3: O(nlogn) Time Complexity and O(1) Space Complexity'''
 
-def twoNumberSum(array, targetSum):
+def twoSumNumber(array, targetSum):
     # Write your code here
 	
 	left = 0
