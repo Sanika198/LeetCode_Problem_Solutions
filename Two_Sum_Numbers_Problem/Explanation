@@ -1,7 +1,12 @@
 1. 
-Given an array of integers, return the two numbers such that they add up to a specific target. Return the array of elements in sorted order. 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.If no numbers add up to specific target 
-then return empty array. 
+Given an array of integers, return the two numbers such that they add up to a specific target. 
+Return the array of elements in sorted order. 
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+If no numbers add up to specific target then return empty array. 
+
+For Example:
+Input: [1,5,-9,-4,8,-1], 7
+Output: [-1,8]
 
 Ans: 
 
