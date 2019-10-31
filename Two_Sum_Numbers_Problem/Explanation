@@ -1,0 +1,11 @@
+1. 
+Given an array of integers, return the two numbers such that they add up to a specific target. Return the array of elements in sorted order. 
+You may assume that each input would have exactly one solution, and you may not use the same element twice.If no numbers add up to specific target 
+then return empty array. 
+
+Ans: 
+
+Here we can use 3 approaches to solve this program. 1st is to use two for loops. 2nd to use dictionary to make more time efficient. 
+and 3rd is sort the existed array then use two pointers, one at start and one at end. then move those pointers according adding respective elements. 
+
+Lets have a look at the attached solution in python file. 
